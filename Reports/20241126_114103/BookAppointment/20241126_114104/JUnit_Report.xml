@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BookAppointment" time="116.962" tests="1" failures="1" errors="0">
+   <testsuite name="BookAppointment" tests="1" failures="1" errors="0" time="116.962" skipped="0" timestamp="26-11-2024T11:41:11" hostname="npewtner - CAW2200264.ca.deloitte.com" id="Test Suites/BookAppointment">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\npewtner\\git\\KatalonTestRepo\\Reports\\20241126_114103\\BookAppointment\\20241126_114104"/>
+         <property name="logFiles" value="C:\\Users\\npewtner\\git\\KatalonTestRepo\\Reports\\20241126_114103\\BookAppointment\\20241126_114104\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="npewtner - CAW2200264.ca.deloitte.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;132.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;4efcbc90-2195-4521-a55b-ab960ef63a82&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;132.0.6793.2 (b39907d62aa9c705221c7f810277594a8fcda94b-refs/branch-heads/6793@{#5})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files\\scoped_dir4876_1267507076&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;4efcbc90-2195-4521-a55b-ab960ef63a82&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;caab09da-ab35-42e8-893b-2d77e0068298&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;4efcbc90-2195-4521-a55b-ab960ef63a82&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;organizationId&quot;: &quot;1701266&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.0.0&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;userId&quot;: 1612176,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="10.0.0.229"/>
+         <property name="sessionId" value="0be8502b54ac645eec66cb8b1449d1dc"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BookAppointment" time="32.561" classname="Test Cases/BookAppointment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BookAppointment FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at BookAppointment.run(BookAppointment:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer&#xa;  (failed to check if window was closed: disconnected: not connected to DevTools)&#xa;  (Session info: chrome=132.0.6793.2)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver&#xa;Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]&#xa;Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 0be8502b54ac645eec66cb8b1449d1dc&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)&#xa;	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$Qd10iUta.findElements(Unknown Source)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:927)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:900)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:746)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:730)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[26-11-2024T11:42:36 - [TEST_CASE][FAILED] - Test Cases/BookAppointment: Test Cases/BookAppointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$Qd10iUta.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:900)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:746)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:730)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+26-11-2024T11:42:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-11-2024T11:42:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1701266, accountId=1425899, channel=kse;v=10.0.0}, executionMode=queue, usingTunnel=false}']
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+26-11-2024T11:42:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2024T11:43:04 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-11-2024T11:43:04 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+26-11-2024T11:43:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2024T11:43:05 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-11-2024T11:43:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+26-11-2024T11:43:06 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment")): Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$Qd10iUta.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:900)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:746)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:730)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1732221631041.run(Script1732221631041.groovy:24)
+	... 18 more
+)
+
+26-11-2024T11:43:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'. Try using Self-healing.
+
+26-11-2024T11:43:06 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+
+26-11-2024T11:43:07 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//*[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+
+26-11-2024T11:43:08 - [MESSAGE][WARNING] - [SELF-HEALING] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=css selector, value=#btn-make-appointment}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+
+26-11-2024T11:43:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+26-11-2024T11:43:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$Qd10iUta.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:900)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:746)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:730)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1732221631041.run(Script1732221631041.groovy:24)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[26-11-2024T11:42:36 - [TEST_CASE][FAILED] - Test Cases/BookAppointment: Test Cases/BookAppointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [0be8502b54ac645eec66cb8b1449d1dc, findElements {using=xpath, value=//a[@id='btn-make-appointment']}]
+Capabilities {LT:Options: {build: 4efcbc90-2195-4521-a55b-ab9..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: caab09da-ab35-42e8-893b-2d7..., executionMode: queue, executionSessionId: 4efcbc90-2195-4521-a55b-ab9..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 4efcbc90-2195-4521-a55b-ab9..., kt:rid: 4efcbc90-2195-4521-a55b-ab9..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0be8502b54ac645eec66cb8b1449d1dc
+	at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$Qd10iUta.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:900)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:746)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:730)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-11-2024T11:41:11 - [TEST_SUITE][FAILED] - BookAppointment: Test Cases/BookAppointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/button_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [43d52310d9f64262f83469fa0afac869, clickElement {id=f.97D7995C8B4E9C357B670178C8E1043A.d.945C568F99B5B91DEDCED3C2B19F2955.e.21}]
+Capabilities {LT:Options: {build: 5989f042-285c-405d-b556-5ce..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: 9a3d46d4-7c25-4bbc-a554-e0e..., executionMode: queue, executionSessionId: 5989f042-285c-405d-b556-5ce..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 5989f042-285c-405d-b556-5ce..., kt:rid: 5989f042-285c-405d-b556-5ce..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (43d52310d9f64262f83469fa0afac869)] -> xpath: //button[@id='btn-login']]
+Session ID: 43d52310d9f64262f83469fa0afac869
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTdzdv9o.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-11-2024T11:41:11 - [TEST_SUITE][FAILED] - BookAppointment: Test Cases/BookAppointment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BookAppointment/Page_CURA Healthcare Service/button_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at BookAppointment.run(BookAppointment:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732642864671.run(TempTestSuite1732642864671.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [43d52310d9f64262f83469fa0afac869, clickElement {id=f.97D7995C8B4E9C357B670178C8E1043A.d.945C568F99B5B91DEDCED3C2B19F2955.e.21}]
+Capabilities {LT:Options: {build: 5989f042-285c-405d-b556-5ce..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {executionId: 9a3d46d4-7c25-4bbc-a554-e0e..., executionMode: queue, executionSessionId: 5989f042-285c-405d-b556-5ce..., metadata: {channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, userId: 1612176, usingTunnel: false}, kt:requestId: 5989f042-285c-405d-b556-5ce..., kt:rid: 5989f042-285c-405d-b556-5ce..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (43d52310d9f64262f83469fa0afac869)] -> xpath: //button[@id='btn-login']]
+Session ID: 43d52310d9f64262f83469fa0afac869
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTdzdv9o.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

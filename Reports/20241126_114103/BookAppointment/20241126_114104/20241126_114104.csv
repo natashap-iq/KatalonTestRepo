@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookAppointment,TestCloud - Windows - Chrome 132.0.0.0,,,26-11-2024 11:41:11,26-11-2024 11:43:08,1m - 56.962s,FAILED
+,,,,,,,
+Test Cases/BookAppointment,TestCloud - Windows - Chrome 132.0.0.0,,NewAppointment,26-11-2024 11:42:36,26-11-2024 11:43:08,32.561s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 132.0.0.0,,,26-11-2024 11:42:36,26-11-2024 11:43:05,29.461s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Chrome 132.0.0.0,,,26-11-2024 11:43:05,26-11-2024 11:43:06,0.408s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - Windows - Chrome 132.0.0.0,,,26-11-2024 11:43:06,26-11-2024 11:43:08,2.675s,FAILED

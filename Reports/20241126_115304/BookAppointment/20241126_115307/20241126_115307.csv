@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookAppointment,TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:54:24,26-11-2024 11:55:31,1m - 6.982s,PASSED
+,,,,,,,
+Test Cases/BookAppointment,TestCloud - Windows - Firefox 133.0,,NewAppointment,26-11-2024 11:54:25,26-11-2024 11:55:31,1m - 6.657s,PASSED
+"openBrowser("""")",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:54:25,26-11-2024 11:55:15,49.553s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:15,26-11-2024 11:55:17,2.109s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:17,26-11-2024 11:55:18,1.152s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:18,26-11-2024 11:55:19,0.891s,PASSED
+"setText(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:19,26-11-2024 11:55:20,1.497s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:20,26-11-2024 11:55:21,0.775s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:21,26-11-2024 11:55:22,0.954s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:22,26-11-2024 11:55:23,0.992s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/td_29""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:23,26-11-2024 11:55:24,0.874s,PASSED
+"setText(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Tasha's Test"")",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:24,26-11-2024 11:55:25,1.485s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/button_Book Appointment""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:25,26-11-2024 11:55:26,0.900s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Go to Homepage""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:26,26-11-2024 11:55:27,0.831s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:27,26-11-2024 11:55:28,0.906s,PASSED
+"click(findTestObject(""Object Repository/BookAppointment/Page_CURA Healthcare Service/a_Logout""))",TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:28,26-11-2024 11:55:29,0.952s,PASSED
+closeBrowser(),TestCloud - Windows - Firefox 133.0,,,26-11-2024 11:55:29,26-11-2024 11:55:31,2.346s,PASSED

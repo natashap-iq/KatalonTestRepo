@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20241126_115304</name>
+   <tag></tag>
+   <displayName>20241126_115304</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241126_115304/BookAppointment/20241126_115305</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudDesktopBrowser</key>
+                  <value>{
+  &quot;id&quot;: 437,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;132&quot;,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: true,
+  &quot;isHighAvailableDevice&quot;: false
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>DESKTOP_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241126_115304/BookAppointment/20241126_115307</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudDesktopBrowser</key>
+                  <value>{
+  &quot;id&quot;: 439,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserDisplayName&quot;: &quot;Firefox&quot;,
+  &quot;browserVersion&quot;: &quot;133&quot;,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: true,
+  &quot;isHighAvailableDevice&quot;: false
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>DESKTOP_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/BookAppointment1</testSuiteCollectionId>
+</ReportCollectionEntity>

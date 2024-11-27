@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AlertTC1_Popup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1f763df-f441-4f33-b011-4fe3d2b9b849</testCaseGuid>
+</TestCaseEntity>

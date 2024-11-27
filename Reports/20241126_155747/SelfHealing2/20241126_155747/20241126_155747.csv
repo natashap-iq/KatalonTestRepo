@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SelfHealing2,Chrome 131.0.0.0,,,26-11-2024 15:57:53,26-11-2024 15:58:02,8.752s,PASSED
+,,,,,,,
+Test Cases/SelfHealing2,Chrome 131.0.0.0,,,26-11-2024 15:57:54,26-11-2024 15:58:02,8.480s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,26-11-2024 15:57:54,26-11-2024 15:57:58,3.392s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 131.0.0.0,,,26-11-2024 15:57:58,26-11-2024 15:57:59,1.233s,PASSED
+"click(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 131.0.0.0,,,26-11-2024 15:57:59,26-11-2024 15:57:59,0.717s,PASSED
+"setText(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username""), ""John Does"")",Chrome 131.0.0.0,,,26-11-2024 15:57:59,26-11-2024 15:58:00,0.750s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 131.0.0.0,,,26-11-2024 15:58:00,26-11-2024 15:58:01,0.377s,PASSED
+"click(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/button_Login""))",Chrome 131.0.0.0,,,26-11-2024 15:58:01,26-11-2024 15:58:01,0.492s,PASSED
+"click(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 131.0.0.0,,,26-11-2024 15:58:01,26-11-2024 15:58:02,0.532s,PASSED
+"click(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Login""))",Chrome 131.0.0.0,,,26-11-2024 15:58:02,26-11-2024 15:58:02,0.297s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,26-11-2024 15:58:02,26-11-2024 15:58:02,0.295s,PASSED
