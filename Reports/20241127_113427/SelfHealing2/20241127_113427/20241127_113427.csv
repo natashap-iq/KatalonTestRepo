@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SelfHealing2,TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:34:35,27-11-2024 11:38:16,3m - 41.016s,FAILED
+,,,,,,,
+Test Cases/SelfHealing2,TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:37:20,27-11-2024 11:38:16,55.803s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:37:20,27-11-2024 11:38:11,50.810s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:38:11,27-11-2024 11:38:14,2.573s,PASSED
+"click(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:38:14,27-11-2024 11:38:15,0.951s,PASSED
+"setText(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username""), ""John Does"")",TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:38:15,27-11-2024 11:38:16,0.797s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Chrome 132.0.0.0,,,27-11-2024 11:38:16,27-11-2024 11:38:16,0.656s,FAILED

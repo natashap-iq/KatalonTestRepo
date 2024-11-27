@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelfHealing2" time="221.016" tests="1" failures="1" errors="0">
+   <testsuite name="SelfHealing2" tests="1" failures="1" errors="0" time="221.016" skipped="0" timestamp="27-11-2024T11:34:35" hostname="npewtner - CAW2200264.ca.deloitte.com" id="Test Suites/SelfHealing2">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\npewtner\\git\\KatalonTestRepo\\Reports\\20241127_113427\\SelfHealing2\\20241127_113427"/>
+         <property name="logFiles" value="C:\\Users\\npewtner\\git\\KatalonTestRepo\\Reports\\20241127_113427\\SelfHealing2\\20241127_113427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="npewtner - CAW2200264.ca.deloitte.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;132.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;0a75a6cb-af99-4396-8033-7385b8a02146&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;132.0.6793.2 (b39907d62aa9c705221c7f810277594a8fcda94b-refs/branch-heads/6793@{#5})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files\\scoped_dir4304_543066560&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;0a75a6cb-af99-4396-8033-7385b8a02146&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;apiKey&quot;: &quot;c9190f1c-84e4-43d8-a01d-a22e5deecfa0&quot;,&#xa;    &quot;executionId&quot;: &quot;a3d326df-7319-4f25-8e12-a1bc17b2ef93&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;0a75a6cb-af99-4396-8033-7385b8a02146&quot;,&#xa;    &quot;group&quot;: &quot;93d2a19b-1358-4727-a4a6-53d116fa6c86&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;1bde0fb7-58c0-474d-90be-133f49c33c7e&quot;,&#xa;      &quot;organizationId&quot;: &quot;1701266&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.0.0&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;8646facf-402e-46c5-87b0-8722685a2e72&quot;,&#xa;    &quot;userId&quot;: 1612176,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="10.53.223.164"/>
+         <property name="sessionId" value="aa08a2d76c1feed834ce7ebc81cb6de2"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SelfHealing2" time="55.803" classname="Test Cases/SelfHealing2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SelfHealing2 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)&#xa;	at SelfHealing2.run(SelfHealing2:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer&#xa;  (failed to check if window was closed: disconnected: not connected to DevTools)&#xa;  (Session info: chrome=132.0.6793.2)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver&#xa;Command: [aa08a2d76c1feed834ce7ebc81cb6de2, sendKeysToElement {id=f.CFFAB2C8CD7D0E2EFEE54EB50EDCF9DD.d.4EA64DB88F4C563ADF20855BFE35063E.e.16, value=[Ljava.lang.CharSequence;@1e57b783}]&#xa;Capabilities {LT:Options: {build: 0a75a6cb-af99-4396-8033-738..., tunnel: true, tunnelName: 0a75a6cb-af99-4396-8033-738..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: a3d326df-7319-4f25-8e12-a1b..., executionMode: queue, executionSessionId: 0a75a6cb-af99-4396-8033-738..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 0a75a6cb-af99-4396-8033-738..., kt:rid: 0a75a6cb-af99-4396-8033-738..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Element: [[CRemoteWebDriver: chrome on windows (aa08a2d76c1feed834ce7ebc81cb6de2)] -> xpath: //input[@id='txt-password']]&#xa;Session ID: aa08a2d76c1feed834ce7ebc81cb6de2&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZnA56Jdr.sendKeys(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[27-11-2024T11:37:20 - [TEST_CASE][FAILED] - Test Cases/SelfHealing2: Test Cases/SelfHealing2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at SelfHealing2.run(SelfHealing2:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [aa08a2d76c1feed834ce7ebc81cb6de2, sendKeysToElement {id=f.CFFAB2C8CD7D0E2EFEE54EB50EDCF9DD.d.4EA64DB88F4C563ADF20855BFE35063E.e.16, value=[Ljava.lang.CharSequence;@1e57b783}]
+Capabilities {LT:Options: {build: 0a75a6cb-af99-4396-8033-738..., tunnel: true, tunnelName: 0a75a6cb-af99-4396-8033-738..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: a3d326df-7319-4f25-8e12-a1b..., executionMode: queue, executionSessionId: 0a75a6cb-af99-4396-8033-738..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 0a75a6cb-af99-4396-8033-738..., kt:rid: 0a75a6cb-af99-4396-8033-738..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (aa08a2d76c1feed834ce7ebc81cb6de2)] -> xpath: //input[@id='txt-password']]
+Session ID: aa08a2d76c1feed834ce7ebc81cb6de2
+	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZnA56Jdr.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+27-11-2024T11:37:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-11-2024T11:37:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1701266, accountId=1425899, channel=kse;v=10.0.0}, tunnelId=, executionMode=queue, usingTunnel=true}']
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+27-11-2024T11:37:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-11-2024T11:38:11 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+27-11-2024T11:38:11 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+27-11-2024T11:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-11-2024T11:38:11 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-11-2024T11:38:14 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-11-2024T11:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-11-2024T11:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-11-2024T11:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username"), "John Does"): Text 'John Does' is set on object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username'
+
+27-11-2024T11:38:16 - [MESSAGE][PASSED] - Text 'John Does' is set on object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username'
+
+27-11-2024T11:38:16 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at SelfHealing2.run(SelfHealing2:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [aa08a2d76c1feed834ce7ebc81cb6de2, sendKeysToElement {id=f.CFFAB2C8CD7D0E2EFEE54EB50EDCF9DD.d.4EA64DB88F4C563ADF20855BFE35063E.e.16, value=[Ljava.lang.CharSequence;@1e57b783}]
+Capabilities {LT:Options: {build: 0a75a6cb-af99-4396-8033-738..., tunnel: true, tunnelName: 0a75a6cb-af99-4396-8033-738..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: a3d326df-7319-4f25-8e12-a1b..., executionMode: queue, executionSessionId: 0a75a6cb-af99-4396-8033-738..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 0a75a6cb-af99-4396-8033-738..., kt:rid: 0a75a6cb-af99-4396-8033-738..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (aa08a2d76c1feed834ce7ebc81cb6de2)] -> xpath: //input[@id='txt-password']]
+Session ID: aa08a2d76c1feed834ce7ebc81cb6de2
+	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZnA56Jdr.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1732647327125.run(Script1732647327125.groovy:28)
+	... 18 more
+)
+
+27-11-2024T11:38:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+27-11-2024T11:38:16 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at SelfHealing2.run(SelfHealing2:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [aa08a2d76c1feed834ce7ebc81cb6de2, sendKeysToElement {id=f.CFFAB2C8CD7D0E2EFEE54EB50EDCF9DD.d.4EA64DB88F4C563ADF20855BFE35063E.e.16, value=[Ljava.lang.CharSequence;@1e57b783}]
+Capabilities {LT:Options: {build: 0a75a6cb-af99-4396-8033-738..., tunnel: true, tunnelName: 0a75a6cb-af99-4396-8033-738..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: a3d326df-7319-4f25-8e12-a1b..., executionMode: queue, executionSessionId: 0a75a6cb-af99-4396-8033-738..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 0a75a6cb-af99-4396-8033-738..., kt:rid: 0a75a6cb-af99-4396-8033-738..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (aa08a2d76c1feed834ce7ebc81cb6de2)] -> xpath: //input[@id='txt-password']]
+Session ID: aa08a2d76c1feed834ce7ebc81cb6de2
+	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZnA56Jdr.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1732647327125.run(Script1732647327125.groovy:28)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[27-11-2024T11:37:20 - [TEST_CASE][FAILED] - Test Cases/SelfHealing2: Test Cases/SelfHealing2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at SelfHealing2.run(SelfHealing2:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [aa08a2d76c1feed834ce7ebc81cb6de2, sendKeysToElement {id=f.CFFAB2C8CD7D0E2EFEE54EB50EDCF9DD.d.4EA64DB88F4C563ADF20855BFE35063E.e.16, value=[Ljava.lang.CharSequence;@1e57b783}]
+Capabilities {LT:Options: {build: 0a75a6cb-af99-4396-8033-738..., tunnel: true, tunnelName: 0a75a6cb-af99-4396-8033-738..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: a3d326df-7319-4f25-8e12-a1b..., executionMode: queue, executionSessionId: 0a75a6cb-af99-4396-8033-738..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 0a75a6cb-af99-4396-8033-738..., kt:rid: 0a75a6cb-af99-4396-8033-738..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (aa08a2d76c1feed834ce7ebc81cb6de2)] -> xpath: //input[@id='txt-password']]
+Session ID: aa08a2d76c1feed834ce7ebc81cb6de2
+	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ZnA56Jdr.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-11-2024T11:34:35 - [TEST_SUITE][FAILED] - SelfHealing2: Test Cases/SelfHealing2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Does' of object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at SelfHealing2.run(SelfHealing2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [026fe64183c5d999dbde3b1e7f703d2b, sendKeysToElement {id=f.0B04E2443179A26DF2EB250CE1F66507.d.9E6E6439F795E71F5D407125B4AF5FA2.e.15, value=[Ljava.lang.CharSequence;@727453a3}]
+Capabilities {LT:Options: {build: 90d3f239-91a0-47c0-bdb2-2ee..., tunnel: true, tunnelName: 90d3f239-91a0-47c0-bdb2-2ee..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: 11c35d0b-8c00-423c-bc9c-a0d..., executionMode: queue, executionSessionId: 90d3f239-91a0-47c0-bdb2-2ee..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 90d3f239-91a0-47c0-bdb2-2ee..., kt:rid: 90d3f239-91a0-47c0-bdb2-2ee..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (026fe64183c5d999dbde3b1e7f703d2b)] -> xpath: //input[@id='txt-username']]
+Session ID: 026fe64183c5d999dbde3b1e7f703d2b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$4kZ7Zbbt.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[27-11-2024T11:34:35 - [TEST_SUITE][FAILED] - SelfHealing2: Test Cases/SelfHealing2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Does' of object 'Object Repository/SelfHealing2/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at SelfHealing2.run(SelfHealing2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732728867829.run(TempTestSuite1732728867829.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=132.0.6793.2)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [026fe64183c5d999dbde3b1e7f703d2b, sendKeysToElement {id=f.0B04E2443179A26DF2EB250CE1F66507.d.9E6E6439F795E71F5D407125B4AF5FA2.e.15, value=[Ljava.lang.CharSequence;@727453a3}]
+Capabilities {LT:Options: {build: 90d3f239-91a0-47c0-bdb2-2ee..., tunnel: true, tunnelName: 90d3f239-91a0-47c0-bdb2-2ee..., w3c: true}, acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6793.2, chrome: {chromedriverVersion: 132.0.6793.2 (b39907d62aa9c..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:options: {apiKey: c9190f1c-84e4-43d8-a01d-a22..., executionId: 11c35d0b-8c00-423c-bc9c-a0d..., executionMode: queue, executionSessionId: 90d3f239-91a0-47c0-bdb2-2ee..., group: 93d2a19b-1358-4727-a4a6-53d..., metadata: {accountUuid: 1bde0fb7-58c0-474d-90be-133..., channel: kse;v=10.0.0, organizationId: 1701266, usingTunnel: false}, runFromTestCloud: true, tenant: KatalonStudio, tunnelMetadataId: 8646facf-402e-46c5-87b0-872..., userId: 1612176, usingTunnel: true}, kt:requestId: 90d3f239-91a0-47c0-bdb2-2ee..., kt:rid: 90d3f239-91a0-47c0-bdb2-2ee..., lambda:loadExtension: [https://prod-magicleap-user...], networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CRemoteWebDriver: chrome on windows (026fe64183c5d999dbde3b1e7f703d2b)] -> xpath: //input[@id='txt-username']]
+Session ID: 026fe64183c5d999dbde3b1e7f703d2b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$4kZ7Zbbt.sendKeys(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
